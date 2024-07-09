@@ -1,0 +1,36 @@
+// DeforestationInfo.tsx
+import React from 'react';
+
+const DeforestationInfo: React.FC = () => {
+    return (
+        <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px' }}>
+            <h1>Understanding Deforestation</h1>
+            <p>
+                Deforestation refers to the clearing, or thinning of forests by humans. 
+                Deforestation has a wide range of negative effects on the environment 
+                including loss of biodiversity, disruption of water cycles, and contribution 
+                to climate change. The main causes of deforestation include logging, agriculture, 
+                and urban expansion.
+            </p>
+            <h2>Causes of Deforestation</h2>
+            <ul>
+                <li><strong>Logging:</strong> Commercial logging operations cut down forests for timber.</li>
+                <li><strong>Agriculture:</strong> Forests are cleared to make way for agricultural land.</li>
+                <li><strong>Urban Expansion:</strong> Growing urban areas require space, leading to deforestation.</li>
+            </ul>
+            <h2>Impact of Deforestation</h2>
+            <p>
+                The removal of trees without sufficient reforestation has resulted in habitat damage, 
+                biodiversity loss, and aridity. It has adverse impacts on biosequestration of atmospheric carbon dioxide.
+            </p>
+            <h2>How to Help</h2>
+            <p>
+                Supporting reforestation projects, reducing consumption of products that cause deforestation, 
+                and spreading awareness are ways to help combat deforestation.
+            </p>
+            <img src="https://example.com/deforestation_image.jpg" alt="Deforestation" style={{ width: '100%', marginTop: '20px' }} />
+        </div>
+    );
+};
+
+export default DeforestationInfo;
